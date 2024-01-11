@@ -1,4 +1,4 @@
-namespace TodoApi
+namespace Management
 {
     public class WeatherForecast
     {
