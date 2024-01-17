@@ -21,8 +21,8 @@ namespace Management.Controllers
             _context = context;
         }
 
-        // GET: api/TodoItems
-        [HttpGet("users")]
+        // GET: api/TodoItems 
+        [HttpGet("getusers")]
         public async Task<ActionResult<IEnumerable<UserProfile>>> GetAllUsers()
         {
             List<UserProfile> userList = await _context.UserProfile.ToListAsync();
