@@ -36,8 +36,7 @@ namespace Management.Controllers
             };
             return Ok(response);
         }
-
-        // GET: api/TodoItems/5
+         
         [HttpGet("getUserById")]
         public async Task<ActionResult<UserProfile>> GetUserById(String uid)
         {
