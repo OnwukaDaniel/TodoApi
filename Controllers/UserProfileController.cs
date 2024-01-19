@@ -108,8 +108,7 @@ namespace Management.Controllers
 
             return CreatedAtAction(nameof(GetAllUsers), new { Uid = userProfile.Uid }, userProfile);
         }
-
-        // DELETE: api/TodoItems/5
+         
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUserProfile(String Uid)
         {
